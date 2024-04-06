@@ -1,10 +1,15 @@
+'use client';
+
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { TAGS } from '@/lib/tag';
+import { useTagParams } from '@/hooks/tag-params';
+import { getTagLabel, mainTags } from '@/lib/tag';
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
 
 export default function MobileNav() {
+  const { addTagToSearchParmas } = useTagParams();
+
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -14,14 +19,16 @@ export default function MobileNav() {
       </SheetTrigger>
       <SheetContent side="left">
         <div className="flex flex-col">
-          {TAGS.map((tag) => (
+          {mainTags.map((tagId) => (
             <Button
               variant="ghost"
               className="justify-start"
-              key={tag.id}
+              key={tagId}
               asChild
             >
-              <Link href={`/${tag.id}`}>{tag.label}</Link>
+              <Link href={`/?tags=${addTagToSearchParmas(tagId)}`}>
+                {getTagLabel(tagId)}
+              </Link>
             </Button>
           ))}
         </div>

@@ -1,3 +1,5 @@
+import { TagId } from '@/data/tag';
+import { getTagLabel } from '@/lib/tag';
 import { Tag } from '@/types/tag';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,7 +11,7 @@ export default function ItemCard({
   imageURL,
 }: {
   title: string;
-  tags: Tag[];
+  tags: TagId[];
   href: string;
   imageURL: string;
 }) {
@@ -25,13 +27,13 @@ export default function ItemCard({
         </Link>
       </h2>
       <div className="flex relative z-10 flex-wrap mt-2 gap-2">
-        {tags.map((tag) => (
+        {tags.map((tagId) => (
           <Link
-            key={tag.id}
-            href={`/${tag.id}`}
+            key={tagId}
+            href={`/${tagId}`}
             className="border whitespace-nowrap text-muted-foreground bg-muted rounded text-xs px-1.5 py-1"
           >
-            {tag.label}
+            {getTagLabel(tagId)}
           </Link>
         ))}
       </div>
