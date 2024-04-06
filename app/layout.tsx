@@ -7,6 +7,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { AppConfig } from '@/app.config';
+import { Suspense } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,10 +33,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
+          <Suspense>
+            <Header />
+          </Suspense>
           <main className="flex flex-1">
-            <SideBar />
-            <div className="flex-1 bg-muted/30">{children}</div>
+            <Suspense>
+              <SideBar />
+            </Suspense>
+            <div className="flex-1 bg-muted/30">
+              <Suspense>{children}</Suspense>
+            </div>
           </main>
           <Footer />
         </ThemeProvider>
