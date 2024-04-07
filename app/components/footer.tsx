@@ -6,7 +6,11 @@ export default function Footer() {
   return (
     <footer className="border sticky top-full">
       <div className="container h-16 gap-1 flex items-center">
-        <p className="text-muted-foreground">&copy; nino</p>
+        <p className="text-muted-foreground">
+          <a href="https://twitter.com/d151005" target="_blank">
+            &copy; nino
+          </a>
+        </p>
         <span className="flex-1"></span>
         <ModeToggle />
         <Button size="icon" asChild variant="ghost">
