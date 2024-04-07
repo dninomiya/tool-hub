@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 export default function Footer() {
   return (
     <footer className="border-t sticky top-full">
-      <div className="container h-16 gap-1 flex items-center">
+      <div className="px-4 h-16 gap-1 flex items-center">
         <p className="text-muted-foreground">
           <a href="https://twitter.com/d151005" target="_blank">
             &copy; nino
