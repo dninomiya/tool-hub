@@ -33,9 +33,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Suspense>
-            <Header />
-          </Suspense>
+          <Header />
           <main className="flex flex-1">
             <Suspense>
               <SideBar />
