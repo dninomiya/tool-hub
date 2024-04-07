@@ -97,7 +97,14 @@ export const allItems: Item[] = [
     id: 'simpleicons',
     href: 'https://simpleicons.org/',
     title: 'Simple Icons',
-    tags: ['available-for-commercial-use', 'free', '.svg', '.pdf', 'icon'],
+    tags: [
+      'available-for-commercial-use',
+      'free',
+      '.svg',
+      '.pdf',
+      'icon',
+      'logo',
+    ],
   },
   {
     id: 'soco-st',
