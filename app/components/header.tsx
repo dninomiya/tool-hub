@@ -1,6 +1,8 @@
 import { AppConfig } from '@/app.config';
 import MobileNav from '@/app/components/mobile-nav';
 import Search from '@/app/components/search';
+import { Button } from '@/components/ui/button';
+import { PocketKnife } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense } from 'react';
 
@@ -13,9 +15,12 @@ export default function Header() {
             <MobileNav />
           </Suspense>
         </div>
-        <Link href="/" className="font-bold text-lg">
-          {AppConfig.title}
-        </Link>
+        <Button asChild variant="ghost" className="font-semibold text-lg gap-2">
+          <Link href="/">
+            <PocketKnife size={18} />
+            {AppConfig.title}
+          </Link>
+        </Button>
         <span className="flex-1" />
         <Search />
       </div>
