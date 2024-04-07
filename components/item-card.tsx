@@ -18,8 +18,8 @@ export default function ItemCard({
   const { addTagToSearchParmas } = useTagParams();
 
   return (
-    <div className="hover:shadow-lg transition duration-500 relative p-4 border rounded-md shadow-sm bg-card">
-      <div className="aspect-video overflow-hidden relative border mb-2 rounded">
+    <div className="hover:shadow-lg transition duration-500 relative p-4 border rounded-lg shadow-sm bg-card">
+      <div className="aspect-video overflow-hidden relative border mb-2 rounded-md">
         <Image
           fill
           className="object-cover bg-muted/30"
