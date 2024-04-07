@@ -27,7 +27,7 @@ export default function SideBar() {
             key={tagId}
             asChild
           >
-            <Link href={`/?tags=${addTagToSearchParmas(tagId)}`}>
+            <Link href={`?tags=${addTagToSearchParmas(tagId)}`}>
               {getTagLabel(tagId)}
             </Link>
           </Button>
