@@ -11,8 +11,12 @@ bun dev
 
 ## アイテムの追加（コードベース）
 
-1. [data/item.ts](../../edit/main/data/item.ts) にアイテムを追加（アイテム ID はドメイン名の引用を推奨）
-2. [public/images](../../tree/main/public/images) にサムネイル(.png)を追加（ファイル名はアイテム ID と一致させる）
+1. [data/item.ts](../../edit/main/data/item.ts) にアイテムを追加
+   - アイテム ID はドメイン名の引用を推奨
+2. [public/images](../../tree/main/public/images) にサムネイル**(.png)**を追加
+   - ファイル名はアイテム ID と一致させる
+   - 概ね 16:9 であれば良いです
+   - 該当サイトの素材の雰囲気がわかるショットだと良いです（ロゴなど抽象的なものは避ける）
 
 ## アイテムの追加（リクエストベース）
 
