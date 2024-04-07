@@ -14,6 +14,8 @@ http://localhost:3000/tool-hub
 
 ## アイテムの追加（GitHub 上から可能）
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dninomiya/tool-hub?quickstart=1)
+
 1. [data/item.ts](../../edit/main/data/item.ts) にアイテムを追加
    - アイテム ID はドメイン名の引用を推奨
    - タグはよしなに追加してもらっても OK です
