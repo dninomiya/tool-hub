@@ -38,7 +38,7 @@ export default function Search() {
       </PopoverTrigger>
       <PopoverContent className="w-[200px] p-0">
         <Command>
-          <CommandInput placeholder="Search framework..." />
+          <CommandInput placeholder="サイトを検索" />
           <CommandEmpty>No framework found.</CommandEmpty>
           <CommandGroup>
             {allItems.map((item) => (
