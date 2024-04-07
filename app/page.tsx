@@ -1,9 +1,12 @@
 'use client';
 
 import ItemCard from '@/components/item-card';
+import { Button } from '@/components/ui/button';
 import { allItems } from '@/data/item';
 import { TagId } from '@/data/tag';
 import { useTagParams } from '@/hooks/tag-params';
+import { getTagLabel } from '@/lib/tag';
+import Link from 'next/link';
 
 export default function Page() {
   const { tags } = useTagParams();
@@ -18,9 +21,19 @@ export default function Page() {
 
   if (currentItems.length === 0) {
     return (
-      <p className="text-sm text-muted-foreground my-10 text-center">
-        このページは存在しません
-      </p>
+      <div className="text-center space-y-4 my-10">
+        <p className="text-sm text-muted-foreground text-center">
+          {tags.length > 0
+            ? '「' +
+              tags.map((tag) => getTagLabel(tag)).join(', ') +
+              '」のタグをもつアイテムは存在しません'
+            : 'アイテムは存在しません'}
+        </p>
+
+        <Button variant="outline" size="sm" asChild>
+          <Link href="/">タグをリセット</Link>
+        </Button>
+      </div>
     );
   }
 
