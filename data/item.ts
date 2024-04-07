@@ -112,4 +112,16 @@ export const allItems: Item[] = [
       'illust',
     ],
   },
+  {
+    id: 'shigureni',
+    href: 'https://www.shigureni.com/',
+    title: 'shigureni free illust',
+    tags: ['available-for-commercial-use', 'free', '.png', 'illust'],
+  },
+  {
+    id: 'linustock',
+    href: 'https://www.linustock.com/',
+    title: 'ライナストック',
+    tags: ['available-for-commercial-use', 'free', '.png', '.eps', 'illust'],
+  },
 ] as const;
