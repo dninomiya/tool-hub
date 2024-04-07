@@ -8,7 +8,7 @@ bun dev
 ## アイテムの追加（コードベース）
 
 1. [data/item.ts](../../edit/main/data/item.ts) にアイテムを追加
-2. [public/images](../../tree/main/public/images) にサムネイルを追加（ファイル名はアイテム ID と一致させる）
+2. [public/images](../../tree/main/public/images) にサムネイル(.png)を追加（ファイル名はアイテム ID と一致させる）
 
 ## アイテムの追加（リクエストベース）
 

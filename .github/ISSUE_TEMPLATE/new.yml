@@ -2,7 +2,6 @@ name: 新アイテムのリクエスト
 description: お気軽に追加してください。画像はIssueに添付してください。
 title: '[リクエスト]: '
 labels: ['feature']
-projects: []
 body:
   - type: input
     id: title
