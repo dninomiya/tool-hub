@@ -59,7 +59,7 @@ export const allItems: Item[] = [
   },
   {
     id: 'blobmaker',
-    href: 'https://blobmaker.app',
+    href: 'https://www.blobmaker.app',
     title: 'Blobmaker',
     tags: ['available-for-commercial-use', 'free', 'css', '.svg'],
   },
