@@ -23,6 +23,7 @@ export default function ItemCard({
         <Image
           fill
           className="object-cover"
+          placeholder="blur"
           src={`/tool-hub/images/${id}.png`}
           alt=""
         />
