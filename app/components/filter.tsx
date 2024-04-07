@@ -6,7 +6,8 @@ import { useTagParams } from '@/hooks/tag-params';
 import { useRouter } from 'next/navigation';
 
 export default function Filter() {
-  const { addTagToSearchParmas, removeTagToSearchParmas } = useTagParams();
+  const { tags, addTagToSearchParmas, removeTagToSearchParmas } =
+    useTagParams();
   const router = useRouter();
 
   return (
@@ -17,11 +18,12 @@ export default function Filter() {
 
       <div className="flex items-center space-x-2">
         <Switch
+          checked={tags.includes('free')}
           onCheckedChange={(v) => {
             if (v) {
-              router.replace(`/?tags=${addTagToSearchParmas('free', true)}`);
+              router.replace(`?tags=${addTagToSearchParmas('free', true)}`);
             } else {
-              router.replace(`/?tags=${removeTagToSearchParmas('free')}`);
+              router.replace(`?tags=${removeTagToSearchParmas('free')}`);
             }
           }}
           id="free"
