@@ -1,6 +1,5 @@
 import { TagId } from '@/data/tag';
 import { getTagLabel } from '@/lib/tag';
-import { Tag } from '@/types/tag';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -8,17 +7,22 @@ export default function ItemCard({
   title,
   tags,
   href,
-  imageURL,
+  id,
 }: {
   title: string;
   tags: TagId[];
   href: string;
-  imageURL: string;
+  id: string;
 }) {
   return (
-    <div className="hover:shadow-lg transition duration-500 aspect-video relative p-4 border rounded-md shadow-sm bg-card">
+    <div className="hover:shadow-lg transition duration-500 relative p-4 border rounded-md shadow-sm bg-card">
       <div className="aspect-video overflow-hidden relative border mb-2 rounded">
-        <Image fill objectFit="cover" src={imageURL} alt="" />
+        <Image
+          fill
+          className="object-cover"
+          src={`/tool-hub/images/${id}.png`}
+          alt=""
+        />
       </div>
       <h2 className="text-sm font-semibold">
         <Link href={href} target="_blank">

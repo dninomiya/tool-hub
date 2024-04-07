@@ -5,15 +5,16 @@ import { Button } from '@/components/ui/button';
 export default function Footer() {
   return (
     <footer className="border sticky top-full">
-      <div className="container h-16 flex items-center justify-between">
+      <div className="container h-16 gap-1 flex items-center">
         <p className="text-muted-foreground">&copy; nino</p>
+        <span className="flex-1"></span>
         <ModeToggle />
         <Button size="icon" asChild variant="ghost">
           <a href={AppConfig.githubURL} target="_blank">
             <svg
               role="img"
               viewBox="0 0 24 24"
-              className="size-5"
+              className="size-5 fill-primary"
               xmlns="http://www.w3.org/2000/svg"
             >
               <title>GitHub</title>

@@ -2,24 +2,33 @@ import { Item } from '@/types/item';
 
 export const allItems: Item[] = [
   {
-    imageURL:
-      'https://pbs.twimg.com/profile_images/1759180513980698624/gc3G9skp_400x400.jpg',
+    id: 'irasutoya',
     href: 'https://www.irasutoya.com',
     title: 'いらすや',
-    tags: ['no-license-required', 'illust'],
+    tags: ['no-license-required', 'illust', 'free'],
   },
   {
-    imageURL:
-      'https://pbs.twimg.com/profile_images/1759180513980698624/gc3G9skp_400x400.jpg',
-    href: 'https://www.irasutoya.com',
+    id: 'pixabay',
+    href: 'https://pixabay.com',
     title: 'Pixabay',
-    tags: ['no-license-required', 'photo', 'illust', 'video'],
+    tags: ['no-license-required', 'photo', 'illust', 'video', 'free'],
   },
   {
-    imageURL:
-      'https://pbs.twimg.com/profile_images/1759180513980698624/gc3G9skp_400x400.jpg',
-    href: 'https://www.irasutoya.com',
+    id: 'unsplash',
+    href: 'https://unsplash.com/ja',
     title: 'Unsplash',
     tags: ['no-license-required', 'free', 'photo', 'public-domain'],
+  },
+  {
+    id: 'vectorshelf',
+    href: 'https://vectorshelf.com',
+    title: 'ベクターシェルフ',
+    tags: ['free', 'illust'],
+  },
+  {
+    id: 'lucide',
+    href: 'https://lucide.dev',
+    title: 'Lucide',
+    tags: ['free', 'icon'],
   },
 ] as const;
