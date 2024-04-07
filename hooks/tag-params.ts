@@ -4,15 +4,13 @@ import { TagId, mainTags } from '@/data/tag';
 import { useSearchParams } from 'next/navigation';
 
 export const useTagParams = () => {
-  const defaultTags = (useSearchParams()
-    .get('tags')
-    ?.split(',')
-    .filter(Boolean) ?? []) as TagId[];
+  const tags = (useSearchParams().get('tags')?.split(',').filter(Boolean) ??
+    []) as TagId[];
 
   const addTagToSearchParmas = (tag: TagId, keepMainTag?: boolean) => {
     const src = keepMainTag
-      ? defaultTags
-      : defaultTags.filter((t: TagId) => !mainTags.includes(t));
+      ? tags
+      : tags.filter((t: TagId) => !mainTags.includes(t));
 
     if (src.includes(tag)) {
       return src.join(',');
@@ -22,8 +20,8 @@ export const useTagParams = () => {
   };
 
   const removeTagToSearchParmas = (tag: TagId) => {
-    return defaultTags.filter((t: TagId) => t !== tag).join(',');
+    return tags.filter((t: TagId) => t !== tag).join(',');
   };
 
-  return { addTagToSearchParmas, removeTagToSearchParmas };
+  return { tags, addTagToSearchParmas, removeTagToSearchParmas };
 };

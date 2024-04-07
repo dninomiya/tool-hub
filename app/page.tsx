@@ -3,14 +3,13 @@
 import ItemCard from '@/components/item-card';
 import { allItems } from '@/data/item';
 import { TagId } from '@/data/tag';
-import { useSearchParams } from 'next/navigation';
+import { useTagParams } from '@/hooks/tag-params';
 
 export default function Page() {
-  const searchParams = useSearchParams();
-  const tags = (searchParams.get('tags') as string)?.split(',');
+  const { tags } = useTagParams();
 
   const currentItems = allItems.filter((item) => {
-    if (!tags) {
+    if (!tags || tags?.length === 0) {
       return true;
     }
 
