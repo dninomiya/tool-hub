@@ -22,8 +22,7 @@ export default function ItemCard({
       <div className="aspect-video overflow-hidden relative border mb-2 rounded">
         <Image
           fill
-          className="object-cover"
-          placeholder="blur"
+          className="object-cover bg-muted/30"
           src={`/tool-hub/images/${id}.png`}
           alt=""
         />
