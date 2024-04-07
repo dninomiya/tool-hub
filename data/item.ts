@@ -11,7 +11,7 @@ export const allItems: Item[] = [
     id: 'pixabay',
     href: 'https://pixabay.com',
     title: 'Pixabay',
-    tags: ['no-license-required', 'photo', 'illust', 'video', 'free'],
+    tags: ['no-license-required', 'photo', 'illust', 'video', 'free', 'audio'],
   },
   {
     id: 'unsplash',

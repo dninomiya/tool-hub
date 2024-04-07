@@ -1,8 +1,6 @@
 'use client';
 
-import { TagId } from '@/data/tag';
-import { mainTags } from '@/lib/tag';
-import cluster from 'cluster';
+import { TagId, mainTags } from '@/data/tag';
 import { useSearchParams } from 'next/navigation';
 
 export const useTagParams = () => {

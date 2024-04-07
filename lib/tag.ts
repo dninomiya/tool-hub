@@ -1,7 +1,4 @@
-import { TagId, allTags } from '@/data/tag';
-import { Tag } from '@/types/tag';
-
-export const mainTags: TagId[] = ['illust', 'photo', 'icon'];
+import { TagId, allTags, mainTags } from '@/data/tag';
 
 export const getTagLabel = (tagId: TagId) => {
   return allTags.find((tag) => tag.id === tagId)?.label ?? '';
