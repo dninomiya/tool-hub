@@ -24,9 +24,21 @@ body:
       multiple: true
       options:
         - no-license-required
+        - available-for-commercial-use
         - photo
+        - avatar
         - illust
+        - css
         - icon
         - free
         - video
         - public-domain
+        - font
+        - icon-font
+        - audio
+        - logo
+        - .pdf
+        - .svg
+        - .png
+        - .ai
+        - .eps
