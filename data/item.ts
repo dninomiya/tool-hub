@@ -124,4 +124,30 @@ export const allItems: Item[] = [
     title: 'ライナストック',
     tags: ['available-for-commercial-use', 'free', '.png', '.eps', 'illust'],
   },
+  {
+    id: 'bon-design',
+    href: 'https://bon.design',
+    title: '凡デザイン',
+    tags: ['available-for-commercial-use', 'free', '.png', '.ai', 'illust'],
+  },
+  {
+    id: 'opeeps-fun',
+    href: 'https://www.opeeps.fun',
+    title: 'Opeeps.Fun',
+    tags: ['available-for-commercial-use', 'free', '.png', '.svg', 'avatar'],
+  },
+  {
+    id: 'freepik',
+    href: 'https://jp.freepik.com',
+    title: 'Freepik',
+    tags: [
+      'available-for-commercial-use',
+      'free',
+      '.png',
+      '.svg',
+      'photo',
+      'icon',
+      'video',
+    ],
+  },
 ] as const;

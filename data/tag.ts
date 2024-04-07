@@ -12,6 +12,7 @@ export const allTags = [
   { id: 'font', label: 'フォント' },
   { id: 'icon-font', label: 'アイコンフォント' },
   { id: 'audio', label: '音、BGM' },
+  { id: 'logo', label: 'ロゴ' },
   { id: '.pdf', label: '.pdf' },
   { id: '.svg', label: '.svg' },
   { id: '.png', label: '.png' },
@@ -28,6 +29,7 @@ export const mainTags: TagId[] = [
   'icon',
   'font',
   'icon-font',
+  'logo',
   'audio',
   'css',
 ];
