@@ -1,8 +1,7 @@
 import { AppConfig } from '@/app.config';
 import MobileNav from '@/app/components/mobile-nav';
-import Search from '@/app/components/search';
 import { Button } from '@/components/ui/button';
-import { PocketKnife } from 'lucide-react';
+import { Pencil, PocketKnife } from 'lucide-react';
 import Link from 'next/link';
 import { Suspense } from 'react';
 
@@ -22,7 +21,12 @@ export default function Header() {
           </Link>
         </Button>
         <span className="flex-1" />
-        <Search />
+        <Button asChild size="icon" variant="outline">
+          <a href={AppConfig.githubURL} target="_blank">
+            <span className="sr-only">GitHub で編集</span>
+            <Pencil className="text-muted-foreground" size={20} />
+          </a>
+        </Button>
       </div>
     </header>
   );
