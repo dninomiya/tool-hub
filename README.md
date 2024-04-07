@@ -24,6 +24,6 @@ http://localhost:3000/tool-hub
 
 ## アイテムの追加（リクエストベース）
 
-コードを書かない場合、Issue からリクエストをお願いします。
+コードを書かない場合、Issue からリクエストをお願いします。サムネイルはリクエスト後の Issue に添付してください。
 
 [リクエスト](https://github.com/dninomiya/tool-hub/issues/new?assignees=&labels=feature&projects=&template=new.yml&title=%5Bリクエスト%5D%3A+)

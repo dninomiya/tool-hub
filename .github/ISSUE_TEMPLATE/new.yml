@@ -1,5 +1,5 @@
 name: 新アイテムのリクエスト
-description: お気軽に追加してください。画像はIssueに添付してください。
+description: 気軽にリクエストしてください。画像は作成後のIssueに添付してください。
 title: '[リクエスト]: '
 labels: ['feature']
 body:
