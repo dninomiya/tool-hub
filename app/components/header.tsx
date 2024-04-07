@@ -1,6 +1,7 @@
 import { AppConfig } from '@/app.config';
 import MobileNav from '@/app/components/mobile-nav';
 import Search from '@/app/components/search';
+import Link from 'next/link';
 import { Suspense } from 'react';
 
 export default function Header() {
@@ -12,7 +13,10 @@ export default function Header() {
             <MobileNav />
           </Suspense>
         </div>
-        <p className="font-bold text-lg">{AppConfig.title}</p>
+        <Link href="/" className="font-bold text-lg">
+          {AppConfig.title}
+        </Link>
+        <span className="flex-1" />
         <Search />
       </div>
     </header>
