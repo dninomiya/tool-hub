@@ -7,6 +7,9 @@
 ```bash
 bun install
 bun dev
+
+# too-hub を末尾につけてください
+http://localhost:3000/tool-hub
 ```
 
 ## アイテムの追加（コードベース）
