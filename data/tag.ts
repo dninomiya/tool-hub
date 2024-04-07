@@ -16,7 +16,7 @@ export const allTags = [
   { id: '.svg', label: '.svg' },
   { id: '.png', label: '.png' },
   { id: '.ai', label: '.ai' },
-  { id: '.esp', label: '.esp' },
+  { id: '.eps', label: '.eps' },
 ] as const;
 
 export type TagId = (typeof allTags)[number]['id'];

@@ -99,4 +99,17 @@ export const allItems: Item[] = [
     title: 'Simple Icons',
     tags: ['available-for-commercial-use', 'free', '.svg', '.pdf', 'icon'],
   },
+  {
+    id: 'soco-st',
+    href: 'https://soco-st.com',
+    title: 'ソコスト',
+    tags: [
+      'available-for-commercial-use',
+      'free',
+      '.svg',
+      '.png',
+      '.eps',
+      'illust',
+    ],
+  },
 ] as const;
