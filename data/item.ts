@@ -174,7 +174,7 @@ export const allItems: Item[] = [
       'icon',
       'illust',
       'available-for-commercial-use',
-      'without-attribution',
+      'no-license-required',
     ],
   },
 ] as const;
