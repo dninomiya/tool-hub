@@ -157,4 +157,15 @@ export const allItems: Item[] = [
       'video',
     ],
   },
+  {
+    id: 'feathericons',
+    href: 'https://feathericons.com/',
+    title: "Feather",
+    tags: [
+      'free',
+      '.svg',
+      'icon',
+      'available-for-commercial-use',
+    ]
+  }
 ] as const;
