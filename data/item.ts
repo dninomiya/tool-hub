@@ -160,12 +160,21 @@ export const allItems: Item[] = [
   {
     id: 'feathericons',
     href: 'https://feathericons.com/',
-    title: "Feather",
+    title: 'Feather',
+    tags: ['free', '.svg', 'icon', 'available-for-commercial-use'],
+  },
+  {
+    id: 'pixels-market',
+    href: 'https://pixels.market/',
+    title: 'pixels.market',
     tags: [
       'free',
       '.svg',
+      '.png',
       'icon',
+      'illust',
       'available-for-commercial-use',
-    ]
-  }
+      'without-attribution',
+    ],
+  },
 ] as const;
