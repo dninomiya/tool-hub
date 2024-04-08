@@ -42,6 +42,6 @@ body:
         - .png
         - .ai
         - .eps
-        - mit-license'
-        - cc-by-nd-4.0'
-        - cc-by-sa-4.0'
+        - mit-license
+        - cc-by-nd-4.0
+        - cc-by-sa-4.0
