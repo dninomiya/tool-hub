@@ -15,7 +15,7 @@ export default function Header() {
           </Suspense>
         </div>
         <Button asChild variant="ghost" className="font-semibold text-lg gap-2">
-          <Link href="/">
+          <Link href="/" replace>
             <PocketKnife size={18} />
             {AppConfig.title}
           </Link>
