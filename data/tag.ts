@@ -14,11 +14,12 @@ export const allTags = [
   { id: 'cc-by-sa-4.0', label: 'CC BY-SA 4.0' },
   { id: 'font', label: 'フォント' },
   { id: 'icon-font', label: 'アイコンフォント' },
-  { id: 'audio', label: '音、BGM' },
+  { id: 'audio', label: '効果音、BGM' },
   { id: 'logo', label: 'ロゴ' },
   { id: '.pdf', label: '.pdf' },
   { id: '.svg', label: '.svg' },
   { id: '.png', label: '.png' },
+  { id: '.mp3', label: '.mp3' },
   { id: '.ai', label: '.ai' },
   { id: '.eps', label: '.eps' },
 ] as const;

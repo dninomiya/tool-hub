@@ -177,4 +177,16 @@ export const allItems: Item[] = [
       'no-license-required',
     ],
   },
+  {
+    id: 'soundeffect-lab',
+    href: 'https://soundeffect-lab.info',
+    title: '効果音ラボ',
+    tags: [
+      'free',
+      'audio',
+      '.mp3',
+      'available-for-commercial-use',
+      'no-license-required',
+    ],
+  },
 ] as const;
