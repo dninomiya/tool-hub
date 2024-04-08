@@ -33,12 +33,12 @@ export default function ItemCard({
           <span className="absolute inset-0"></span>
         </Link>
       </h2>
-      <div className="flex relative z-10 flex-wrap mt-2 gap-2">
+      <div className="flex flex-wrap mt-2 gap-2">
         {tags.map((tagId) => (
           <Link
             key={tagId}
             href={`?tags=${addTagToSearchParmas(tagId, true)}`}
-            className="border whitespace-nowrap text-muted-foreground bg-muted rounded text-xs px-1.5 py-1"
+            className="border relative z-10 whitespace-nowrap text-muted-foreground bg-muted rounded text-xs px-1.5 py-1"
           >
             {getTagLabel(tagId)}
           </Link>
