@@ -189,4 +189,16 @@ export const allItems: Item[] = [
       'no-license-required',
     ],
   },
+  {
+    id: 'logoipsum',
+    href: 'https://logoipsum.com',
+    title: 'Logoipsum',
+    tags: [
+      'free',
+      'available-for-commercial-use',
+      'no-license-required',
+      '.svg',
+      'logo',
+    ],
+  },
 ] as const;
