@@ -21,6 +21,7 @@ export const allTags = [
   { id: '.png', label: '.png' },
   { id: '.ai', label: '.ai' },
   { id: '.eps', label: '.eps' },
+  { id: 'without-attribution', label: 'ライセンス表記不要' },
 ] as const;
 
 export type TagId = (typeof allTags)[number]['id'];
