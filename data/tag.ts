@@ -1,6 +1,8 @@
 export const allTags = [
   { id: 'no-license-required', label: 'ライセンス表記不要' },
   { id: 'available-for-commercial-use', label: '商用利用可能' },
+  { id: 'modifiable', label: '改変可能' },
+  { id: 'no-license-inheritance-required', label: 'ライセンス継承不要' },
   { id: 'photo', label: '写真' },
   { id: 'avatar', label: 'アバター' },
   { id: 'illust', label: 'イラスト' },
