@@ -4,7 +4,7 @@ export const allItems: Item[] = [
   {
     id: 'irasutoya',
     href: 'https://www.irasutoya.com',
-    title: 'いらすや',
+    title: 'いらすとや',
     tags: [
       'available-for-commercial-use',
       'no-license-required',
