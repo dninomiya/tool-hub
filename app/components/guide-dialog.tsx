@@ -36,6 +36,8 @@ export default function GuideDialog() {
           </a>
           より誰でも自由に追加/リクエストできます。
         </p>
+
+        <p className="text-muted-foreground leading-relaxed">このサイトの制作過程は <a href="https://www.youtube.com/watch?v=V8EJzP4Q1Ak&t=4937s" target="_blank" className="underline">YouTube</a> で確認できます。</p>
         <DialogFooter>
           <DialogClose asChild>
             <Button variant="outline">閉じる</Button>
