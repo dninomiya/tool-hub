@@ -61,13 +61,13 @@ export const allItems: Item[] = [
     id: 'blobmaker',
     href: 'https://www.blobmaker.app',
     title: 'Blobmaker',
-    tags: ['available-for-commercial-use', 'free', 'css', '.svg'],
+    tags: ['available-for-commercial-use', 'free', 'generator', '.svg'],
   },
   {
     id: 'getwaves',
     href: 'https://getwaves.io',
     title: 'Get Waves',
-    tags: ['available-for-commercial-use', 'free', 'css', '.svg'],
+    tags: ['available-for-commercial-use', 'free', 'generator', '.svg'],
   },
   {
     id: 'fontawesome',
@@ -200,5 +200,11 @@ export const allItems: Item[] = [
       '.svg',
       'logo',
     ],
+  },
+  {
+    id: 'faviconio',
+    href: 'https://favicon.io',
+    title: 'favicon.io',
+    tags: ['available-for-commercial-use', 'free', 'generator'],
   },
 ] as const;
