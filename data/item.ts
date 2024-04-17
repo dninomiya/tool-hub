@@ -213,4 +213,16 @@ export const allItems: Item[] = [
     title: 'Worldvectorlogo',
     tags: ['available-for-commercial-use', 'free', '.svg', 'logo'],
   },
+  {
+    id: 'loosedrawing',
+    href: 'https://loosedrawing.com/',
+    title: 'Loose Drawing',
+    tags: [
+      'available-for-commercial-use',
+      'free',
+      'no-license-required',
+      'illust',
+      '.png',
+    ],
+  },
 ] as const;
