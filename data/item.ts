@@ -207,4 +207,10 @@ export const allItems: Item[] = [
     title: 'favicon.io',
     tags: ['available-for-commercial-use', 'free', 'generator'],
   },
+  {
+    id: 'worldvectorlogo',
+    href: 'https://worldvectorlogo.com/ja',
+    title: 'Worldvectorlogo',
+    tags: ['available-for-commercial-use', 'free', '.svg', 'logo'],
+  },
 ] as const;
