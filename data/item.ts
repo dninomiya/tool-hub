@@ -85,7 +85,7 @@ export const allItems: Item[] = [
     id: 'peeps-ui8',
     href: 'https://peeps.ui8.net',
     title: 'Peeps Avatar Builder',
-    tags: ['available-for-commercial-use', 'free', '.png', 'avatar'],
+    tags: ['available-for-commercial-use', 'free', '.png', 'avatar', '3d'],
   },
   {
     id: 'notion-avatar',

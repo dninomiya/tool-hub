@@ -8,6 +8,7 @@ export const allTags = [
   { id: 'illust', label: 'イラスト' },
   { id: 'generator', label: 'ジェネレータ' },
   { id: 'icon', label: 'アイコン' },
+  { id: '3d', label: '3D' },
   { id: 'free', label: '無料' },
   { id: 'video', label: 'ビデオ' },
   { id: 'public-domain', label: 'パブリックドメイン' },
@@ -34,8 +35,9 @@ export const mainTags: TagId[] = [
   'photo',
   'icon',
   'font',
-  'icon-font',
   'logo',
+  '3d',
+  'icon-font',
   'audio',
   'generator',
 ];
