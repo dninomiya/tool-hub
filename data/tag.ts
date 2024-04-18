@@ -25,6 +25,7 @@ export const allTags = [
   { id: '.mp3', label: '.mp3' },
   { id: '.ai', label: '.ai' },
   { id: '.eps', label: '.eps' },
+  { id: 'figma', label: 'Figma' },
 ] as const;
 
 export type TagId = (typeof allTags)[number]['id'];

@@ -250,4 +250,35 @@ export const allItems: Item[] = [
     title: 'Streamline',
     tags: ['available-for-commercial-use', 'free', 'icon', 'illust'],
   },
+  {
+    id: 'dicebear',
+    href: 'https://www.dicebear.com',
+    title: 'DiceBear',
+    tags: [
+      'available-for-commercial-use',
+      'free',
+      'avatar',
+      '.svg',
+      '.png',
+      'illust',
+    ],
+  },
+  {
+    id: 'avatar-illustration-system',
+    href: 'https://www.figma.com/community/file/829741575478342595/avatar-illustration-system',
+    title: 'Avatar Illustration System',
+    tags: ['available-for-commercial-use', 'free', 'avatar', 'figma', 'illust'],
+  },
+  {
+    id: 'illustration-module-omiso',
+    href: 'https://www.figma.com/community/file/1233018502662114764/illustration-module-omiso',
+    title: 'Illustration module:omiso',
+    tags: ['available-for-commercial-use', 'free', 'avatar', 'figma', 'illust'],
+  },
+  {
+    id: 'humation-human-illustration-system',
+    href: 'https://www.figma.com/community/plugin/1252595876303925244/humation-human-illustration-system',
+    title: 'Humation / Human Illustration System',
+    tags: ['available-for-commercial-use', 'free', 'avatar', 'figma', 'illust'],
+  },
 ] as const;
