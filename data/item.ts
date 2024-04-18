@@ -225,4 +225,29 @@ export const allItems: Item[] = [
       '.png',
     ],
   },
+  {
+    id: 'iconbox',
+    href: 'https://iconbox.fun',
+    title: 'ICON BOX',
+    tags: [
+      'available-for-commercial-use',
+      'no-license-required',
+      'free',
+      '.png',
+      '.svg',
+      'icon',
+    ],
+  },
+  {
+    id: 'goodfreefonts',
+    href: 'https://goodfreefonts.com',
+    title: 'いいフォント',
+    tags: ['font'],
+  },
+  {
+    id: 'streamlinehq',
+    href: 'https://www.streamlinehq.com/illustrations',
+    title: 'Streamline',
+    tags: ['available-for-commercial-use', 'free', 'icon', 'illust'],
+  },
 ] as const;
