@@ -281,4 +281,10 @@ export const allItems: Item[] = [
     title: 'Humation / Human Illustration System',
     tags: ['available-for-commercial-use', 'free', 'avatar', 'figma', 'illust'],
   },
+  {
+    id: 'svgl',
+    href: 'https://svgl.app',
+    title: 'Svgl',
+    tags: ['available-for-commercial-use', 'free', 'logo', '.svg'],
+  },
 ] as const;
