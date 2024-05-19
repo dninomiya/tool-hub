@@ -287,4 +287,10 @@ export const allItems: Item[] = [
     title: 'Svgl',
     tags: ['available-for-commercial-use', 'free', 'logo', '.svg'],
   },
+  {
+    id: 'haikei',
+    href: 'https://haikei.app/',
+    title: 'Haikei',
+    tags: ['available-for-commercial-use', 'free', 'generator', '.svg'],
+  },
 ] as const;
