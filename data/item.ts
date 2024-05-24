@@ -293,4 +293,10 @@ export const allItems: Item[] = [
     title: 'Haikei',
     tags: ['available-for-commercial-use', 'free', 'generator', '.svg'],
   },
+  {
+    id: 'css-to-tailwind',
+    href: 'https://hymhub.github.io/css-to-tailwind/',
+    title: 'Css To Tailwind',
+    tags: ['available-for-commercial-use', 'free', 'generator', '.css'],
+  },
 ] as const;
