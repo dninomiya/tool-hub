@@ -299,4 +299,10 @@ export const allItems: Item[] = [
     title: 'Css To Tailwind',
     tags: ['available-for-commercial-use', 'free', 'generator', '.css'],
   },
+  {
+    id: 'webframe',
+    href: 'https://webframe.xyz/',
+    title: 'Webframe',
+    tags: ['gallery', 'free'],
+  },
 ] as const;

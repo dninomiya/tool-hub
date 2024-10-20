@@ -27,6 +27,7 @@ export const allTags = [
   { id: '.eps', label: '.eps' },
   { id: 'figma', label: 'Figma' },
   { id: '.css', label: '.css' },
+  { id: 'gallery', label: 'ギャラリー' },
 ] as const;
 
 export type TagId = (typeof allTags)[number]['id'];
@@ -42,4 +43,5 @@ export const mainTags: TagId[] = [
   'icon-font',
   'audio',
   'generator',
+  'gallery',
 ];
